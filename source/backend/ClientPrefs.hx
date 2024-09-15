@@ -24,7 +24,7 @@ import states.TitleState;
 	public var autoPause:Bool = true;
 	public var antialiasing:Bool = true;
 	public var noteSkin:String = 'Default';
-	public var splashSkin:String = 'Psych';
+	public var splashSkin:String = 'Hymns';
 	public var splashAlpha:Float = 0.6;
 	public var lowQuality:Bool = false;
 	public var shaders:Bool = true;
@@ -44,6 +44,9 @@ import states.TitleState;
 		[0xFF3DCAFF, 0xFFF4FFFF, 0xFF003060],
 		[0xFF71E300, 0xFFF6FFE6, 0xFF003100],
 		[0xFFFF884E, 0xFFFFFAF5, 0xFF6C0000]];
+	public var geo:Int = 0;
+	public var language:String = TransManager.DEFAULT_LANGUAGE;
+	public var hasShownLanguageSelection:Bool = false;
 
 	public var ghostTapping:Bool = true;
 	public var timeBarType:String = 'Time Left';
@@ -87,8 +90,8 @@ import states.TitleState;
 }
 
 class ClientPrefs {
-	public static var data:SaveVariables = {};
-	public static var defaultData:SaveVariables = {};
+	public static var data:SaveVariables = null;
+	public static var defaultData:SaveVariables = null;
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
 	public static var keyBinds:Map<String, Array<FlxKey>> = [
@@ -113,9 +116,7 @@ class ClientPrefs {
 		'volume_down'	=> [NUMPADMINUS, MINUS],
 		
 		'debug_1'		=> [SEVEN],
-		'debug_2'		=> [EIGHT],
-		
-		'fullscreen'	=> [F11]
+		'debug_2'		=> [EIGHT]
 	];
 	public static var gamepadBinds:Map<String, Array<FlxGamepadInputID>> = [
 		'note_up'		=> [DPAD_UP, Y],
@@ -243,7 +244,7 @@ class ClientPrefs {
 		if (FlxG.save.data.mute != null)
 			FlxG.sound.muted = FlxG.save.data.mute;
 
-		#if DISCORD_ALLOWED
+		#if desktop
 		DiscordClient.check();
 		#end
 
@@ -279,17 +280,22 @@ class ClientPrefs {
 		return /*PlayState.isStoryMode ? defaultValue : */ (data.gameplaySettings.exists(name) ? data.gameplaySettings.get(name) : defaultValue);
 	}
 
-	public static function reloadVolumeKeys()
-	{
-		TitleState.muteKeys = keyBinds.get('volume_mute').copy();
-		TitleState.volumeDownKeys = keyBinds.get('volume_down').copy();
-		TitleState.volumeUpKeys = keyBinds.get('volume_up').copy();
+    public static function reloadVolumeKeys() {
+		Main.muteKeys = keyBinds.get('volume_mute').copy();
+		Main.volumeDownKeys = keyBinds.get('volume_down').copy();
+		Main.volumeUpKeys = keyBinds.get('volume_up').copy();
 		toggleVolumeKeys(true);
 	}
-	public static function toggleVolumeKeys(?turnOn:Bool = true)
-	{
-		FlxG.sound.muteKeys = turnOn ? TitleState.muteKeys : [];
-		FlxG.sound.volumeDownKeys = turnOn ? TitleState.volumeDownKeys : [];
-		FlxG.sound.volumeUpKeys = turnOn ? TitleState.volumeUpKeys : [];
+
+	public static function toggleVolumeKeys(turnOn:Bool) {
+		if (turnOn) {
+			FlxG.sound.muteKeys = Main.muteKeys;
+			FlxG.sound.volumeDownKeys = Main.volumeDownKeys;
+			FlxG.sound.volumeUpKeys = Main.volumeUpKeys;
+		} else {
+			FlxG.sound.muteKeys = [];
+			FlxG.sound.volumeDownKeys = [];
+			FlxG.sound.volumeUpKeys = [];
+		}
 	}
 }
