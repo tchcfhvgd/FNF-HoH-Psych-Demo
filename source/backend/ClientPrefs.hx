@@ -163,6 +163,7 @@ class ClientPrefs {
 		if (gamepadBind != null) {
 			while (gamepadBind.contains(NONE))
 				gamepadBind.remove(NONE);
+		}
 		if (mobileBind != null) {
 			while (mobileBind.contains(NONE))
 				mobileBind.remove(NONE);
