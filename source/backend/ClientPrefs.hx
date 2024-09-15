@@ -7,7 +7,7 @@ import flixel.input.gamepad.FlxGamepadInputID;
 // Add a variable here and it will get automatically saved
 @:structInit class SaveVariables {
         // Mobile Controls Releated
-	public var extraButtons:String = "NONE"; // mobile extra button option
+	public var extraButtons:String = "SINGLE"; // mobile extra button option
 	public var hitbox2:Bool = true; // hitbox extra button position option
 	public var dynamicColors:Bool = true; // yes cause its cool -Karim
 	public var controlsAlpha:Float = #if (mobile || mobileC) 0.6 #else 0.001 #end;
