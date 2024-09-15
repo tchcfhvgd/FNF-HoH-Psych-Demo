@@ -1,244 +1,244 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="VBF_SWINDLER_DEATH.png">
-	<!-- Created with Adobe Animate version 23.0.0.407 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="V death confirm instance 10000" x="87" y="87" width="348" height="1154" frameX="0" frameY="0" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10001" x="522" y="87" width="348" height="1154" frameX="0" frameY="0" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10002" x="957" y="87" width="348" height="954" frameX="0" frameY="-200" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10003" x="1392" y="87" width="348" height="754" frameX="0" frameY="-400" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10004" x="1827" y="87" width="348" height="534" frameX="0" frameY="-620" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10005" x="2262" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10006" x="2697" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10007" x="3132" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10008" x="3567" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10009" x="4002" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10010" x="4437" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10011" x="4872" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10012" x="5307" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10013" x="5742" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10014" x="6177" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10015" x="4872" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10016" x="5307" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10017" x="6612" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10018" x="6177" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10019" x="4872" y="87" width="348" height="530" frameX="0" frameY="-624" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10020" x="7047" y="87" width="356" height="528" frameX="-3" frameY="-626" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10021" x="7490" y="87" width="356" height="528" frameX="-3" frameY="-626" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10022" x="87" y="1328" width="351" height="544" frameX="-2" frameY="-611" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10023" x="87" y="1328" width="351" height="544" frameX="-2" frameY="-611" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10024" x="525" y="1328" width="360" height="540" frameX="-3" frameY="-614" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10025" x="972" y="1328" width="360" height="540" frameX="-3" frameY="-614" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10026" x="1419" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10027" x="1869" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10028" x="1869" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10029" x="2319" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10030" x="2319" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10031" x="2769" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10032" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10033" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10034" x="3669" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10035" x="4119" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10036" x="4119" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10037" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10038" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10039" x="3669" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10040" x="4119" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10041" x="4119" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10042" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10043" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10044" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10045" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10046" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10047" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10048" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10049" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10050" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10051" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10052" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10053" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10054" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10055" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10056" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10057" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10058" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10059" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10060" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10061" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10062" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10063" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10064" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10065" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10066" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10067" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10068" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10069" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10070" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10071" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10072" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10073" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10074" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10075" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10076" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10077" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10078" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10079" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10080" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10081" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10082" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10083" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10084" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10085" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10086" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10087" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10088" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10089" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10090" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10091" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10092" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10093" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10094" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10095" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10096" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10097" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10098" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10099" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10100" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10101" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10102" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10103" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10104" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10105" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10106" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death confirm instance 10107" x="3219" y="1328" width="363" height="539" frameX="-3" frameY="-615" frameWidth="366" frameHeight="1155"/>
-	<SubTexture name="V death loop instance 10000" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10001" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10002" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10003" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10004" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10005" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10006" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10007" x="5439" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10008" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10009" x="5874" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10010" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10011" x="5439" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10012" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10013" x="5874" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10014" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10015" x="5439" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10016" x="4569" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10017" x="5874" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10018" x="5004" y="1328" width="348" height="530"/>
-	<SubTexture name="V death loop instance 10019" x="5439" y="1328" width="348" height="530"/>
-	<SubTexture name="V dies instance 10000" x="6309" y="1328" width="384" height="546" frameX="-43" frameY="-517" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10001" x="6309" y="1328" width="384" height="546" frameX="-43" frameY="-517" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10002" x="6309" y="1328" width="384" height="546" frameX="-43" frameY="-517" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10003" x="6309" y="1328" width="384" height="546" frameX="-43" frameY="-517" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10004" x="6780" y="1328" width="385" height="547" frameX="-41" frameY="-516" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10005" x="6780" y="1328" width="385" height="547" frameX="-41" frameY="-516" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10006" x="7252" y="1328" width="382" height="553" frameX="-36" frameY="-510" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10007" x="7252" y="1328" width="382" height="553" frameX="-36" frameY="-510" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10008" x="87" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10009" x="87" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10010" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10011" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10012" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10013" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10014" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10015" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10016" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10017" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10018" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10019" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10020" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10021" x="559" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10022" x="1031" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10023" x="1503" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10024" x="1503" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10025" x="1503" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10026" x="1503" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10027" x="1975" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10028" x="1975" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10029" x="1975" y="1968" width="385" height="552" frameX="-36" frameY="-511" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10030" x="2447" y="1968" width="384" height="553" frameX="-36" frameY="-510" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10031" x="2447" y="1968" width="384" height="553" frameX="-36" frameY="-510" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10032" x="2918" y="1968" width="383" height="554" frameX="-36" frameY="-509" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10033" x="2918" y="1968" width="383" height="554" frameX="-36" frameY="-509" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10034" x="3388" y="1968" width="376" height="554" frameX="-36" frameY="-509" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10035" x="3851" y="1968" width="376" height="554" frameX="-36" frameY="-509" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10036" x="4314" y="1968" width="363" height="551" frameX="-36" frameY="-512" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10037" x="4764" y="1968" width="363" height="551" frameX="-36" frameY="-512" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10038" x="5214" y="1968" width="379" height="531" frameX="-15" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10039" x="5680" y="1968" width="390" height="531" frameX="-15" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10040" x="6157" y="1968" width="412" height="526" frameX="-4" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10041" x="6656" y="1968" width="424" height="526" frameX="-4" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10042" x="7167" y="1968" width="442" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10043" x="87" y="2609" width="455" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10044" x="629" y="2609" width="468" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10045" x="1184" y="2609" width="482" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10046" x="1753" y="2609" width="498" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10047" x="2338" y="2609" width="513" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10048" x="2938" y="2609" width="529" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10049" x="3554" y="2609" width="545" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10050" x="4186" y="2609" width="563" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10051" x="4836" y="2609" width="580" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10052" x="5503" y="2609" width="598" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10053" x="6188" y="2609" width="617" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10054" x="6892" y="2609" width="636" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10055" x="87" y="3222" width="656" height="541" frameX="0" frameY="-522" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10056" x="830" y="3222" width="676" height="562" frameX="0" frameY="-501" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10057" x="1593" y="3222" width="698" height="584" frameX="0" frameY="-479" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10058" x="2378" y="3222" width="719" height="605" frameX="0" frameY="-458" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10059" x="3184" y="3222" width="742" height="629" frameX="0" frameY="-434" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10060" x="4013" y="3222" width="764" height="651" frameX="0" frameY="-412" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10061" x="4864" y="3222" width="787" height="675" frameX="0" frameY="-388" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10062" x="5738" y="3222" width="811" height="699" frameX="0" frameY="-364" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10063" x="6636" y="3222" width="835" height="724" frameX="0" frameY="-339" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10064" x="87" y="4033" width="859" height="749" frameX="0" frameY="-314" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10065" x="1033" y="4033" width="886" height="775" frameX="0" frameY="-288" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10066" x="2006" y="4033" width="911" height="802" frameX="0" frameY="-261" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10067" x="3004" y="4033" width="938" height="829" frameX="0" frameY="-234" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10068" x="4029" y="4033" width="965" height="856" frameX="0" frameY="-207" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10069" x="5081" y="4033" width="993" height="885" frameX="0" frameY="-178" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10070" x="6161" y="4033" width="1021" height="913" frameX="0" frameY="-150" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10071" x="87" y="5033" width="1050" height="943" frameX="0" frameY="-120" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10072" x="1224" y="5033" width="1079" height="973" frameX="0" frameY="-90" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10073" x="2390" y="5033" width="1110" height="1004" frameX="0" frameY="-59" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10074" x="3587" y="5033" width="1140" height="1034" frameX="0" frameY="-29" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10075" x="4814" y="5033" width="1153" height="1063"/>
-	<SubTexture name="V dies instance 10076" x="6054" y="5033" width="360" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10077" x="6054" y="5033" width="360" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10078" x="6054" y="5033" width="360" height="526" frameX="0" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10079" x="6501" y="5033" width="355" height="527" frameX="-5" frameY="-536" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10080" x="6501" y="5033" width="355" height="527" frameX="-5" frameY="-536" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10081" x="6943" y="5033" width="354" height="526" frameX="-9" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10082" x="6943" y="5033" width="354" height="526" frameX="-9" frameY="-537" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10083" x="7384" y="5033" width="351" height="526" frameX="-36" frameY="-536" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10084" x="7384" y="5033" width="351" height="526" frameX="-36" frameY="-536" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10085" x="87" y="6183" width="350" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10086" x="87" y="6183" width="350" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10087" x="524" y="6183" width="347" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10088" x="524" y="6183" width="347" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10089" x="958" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10090" x="958" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10091" x="958" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10092" x="1393" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10093" x="1393" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10094" x="1828" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10095" x="1828" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10096" x="2263" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10097" x="2263" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10098" x="2698" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10099" x="3133" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10100" x="3568" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10101" x="4003" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10102" x="4438" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10103" x="4873" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10104" x="5308" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10105" x="5743" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10106" x="6178" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10107" x="6613" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10108" x="7048" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10109" x="7483" y="6183" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
-	<SubTexture name="V dies instance 10110" x="87" y="6800" width="348" height="530" frameX="-35" frameY="-532" frameWidth="1153" frameHeight="1063"/>
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="V death confirm instance 0000" x="4195" y="1145" width="352" height="1145" frameX="2" frameY="-11" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0001" x="4195" y="0" width="352" height="1145" frameX="2" frameY="-11" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0002" x="4195" y="2290" width="352" height="945" frameX="2" frameY="-211" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0003" x="4547" y="2120" width="352" height="745" frameX="2" frameY="-411" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0004" x="6217" y="0" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0005" x="5865" y="534" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0006" x="1413" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0007" x="5865" y="2136" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0008" x="5865" y="4806" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0009" x="1061" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0010" x="2821" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0011" x="6217" y="1602" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0012" x="3877" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0013" x="4933" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0014" x="709" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0015" x="6217" y="1602" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0016" x="3877" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0017" x="5865" y="1602" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0018" x="709" y="5311" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0019" x="6217" y="1602" width="352" height="534" frameX="2" frameY="-622" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0020" x="2973" y="4760" width="360" height="532" frameX="-1" frameY="-624" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0021" x="3333" y="4760" width="360" height="532" frameX="-1" frameY="-624" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0022" x="0" y="5311" width="355" height="548" frameX="0" frameY="-609" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0023" x="0" y="5311" width="355" height="548" frameX="0" frameY="-609" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0024" x="2242" y="4760" width="364" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0025" x="1878" y="4760" width="364" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0026" x="1511" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0027" x="5485" y="2760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0028" x="5485" y="2760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0029" x="1144" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0030" x="1144" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0031" x="5485" y="3303" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0032" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0033" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0034" x="5485" y="3846" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0035" x="777" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0036" x="777" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0037" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0038" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0039" x="5485" y="3846" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0040" x="777" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0041" x="777" y="4760" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0042" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0043" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0044" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0045" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0046" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0047" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0048" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0049" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0050" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0051" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0052" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0053" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0054" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0055" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0056" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0057" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0058" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0059" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0060" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0061" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0062" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0063" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0064" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0065" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0066" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0067" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0068" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0069" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0070" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0071" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0072" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0073" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0074" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0075" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0076" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0077" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0078" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0079" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0080" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0081" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0082" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0083" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0084" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0085" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0086" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0087" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0088" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0089" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0090" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0091" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0092" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0093" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0094" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0095" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0096" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0097" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0098" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0099" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0100" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0101" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0102" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0103" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0104" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0105" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0106" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death confirm instance 0107" x="5485" y="4389" width="367" height="543" frameX="-1" frameY="-613" frameWidth="366" frameHeight="1155"/>
+	<SubTexture name="V death loop instance 0000" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0001" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0002" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0003" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0004" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0005" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0006" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0007" x="6217" y="3203" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0008" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0009" x="6217" y="4269" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0010" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0011" x="6217" y="3203" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0012" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0013" x="6217" y="4269" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0014" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0015" x="6217" y="3203" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0016" x="6217" y="2670" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0017" x="6217" y="4269" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0018" x="6217" y="3736" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V death loop instance 0019" x="6217" y="3203" width="352" height="533" frameX="2" frameY="1" frameWidth="348" frameHeight="530"/>
+	<SubTexture name="V dies instance 0000" x="389" y="4760" width="388" height="550" frameX="-41" frameY="-515" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0001" x="389" y="4760" width="388" height="550" frameX="-41" frameY="-515" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0002" x="389" y="4760" width="388" height="550" frameX="-41" frameY="-515" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0003" x="389" y="4760" width="388" height="550" frameX="-41" frameY="-515" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0004" x="0" y="4760" width="389" height="551" frameX="-39" frameY="-514" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0005" x="0" y="4760" width="389" height="551" frameX="-39" frameY="-514" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0006" x="5096" y="3892" width="386" height="557" frameX="-34" frameY="-508" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0007" x="5096" y="3892" width="386" height="557" frameX="-34" frameY="-508" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0008" x="5096" y="2224" width="389" height="555" frameX="-34" frameY="-510" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0009" x="5096" y="2224" width="389" height="555" frameX="-34" frameY="-510" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0010" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0011" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0012" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0013" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0014" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0015" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0016" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0017" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0018" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0019" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0020" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0021" x="5096" y="1112" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0022" x="5096" y="0" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0023" x="5096" y="556" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0024" x="5096" y="556" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0025" x="5096" y="556" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0026" x="5096" y="556" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0027" x="5096" y="1668" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0028" x="5096" y="1668" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0029" x="5096" y="1668" width="389" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0030" x="5096" y="2779" width="388" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0031" x="5096" y="2779" width="388" height="556" frameX="-34" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0032" x="5096" y="3335" width="387" height="557" frameX="-34" frameY="-508" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0033" x="5096" y="3335" width="387" height="557" frameX="-34" frameY="-508" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0034" x="5485" y="0" width="380" height="558" frameX="-34" frameY="-507" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0035" x="5485" y="558" width="380" height="558" frameX="-34" frameY="-507" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0036" x="5485" y="1116" width="367" height="555" frameX="-34" frameY="-510" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0037" x="5485" y="1671" width="367" height="555" frameX="-34" frameY="-510" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0038" x="2606" y="4760" width="367" height="534" frameX="-13" frameY="-531" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0039" x="5485" y="2226" width="377" height="534" frameX="-13" frameY="-531" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0040" x="1296" y="4230" width="400" height="530" frameX="-2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0041" x="884" y="4230" width="412" height="530" frameX="-2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0042" x="455" y="4230" width="429" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0043" x="2853" y="2054" width="442" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0044" x="0" y="4230" width="455" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0045" x="4547" y="3395" width="469" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0046" x="4547" y="2865" width="484" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0047" x="4547" y="1590" width="499" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0048" x="4547" y="1060" width="516" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0049" x="4547" y="530" width="533" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0050" x="4547" y="0" width="549" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0051" x="3800" y="3651" width="567" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0052" x="3215" y="3651" width="585" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0053" x="2611" y="3651" width="604" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0054" x="1988" y="3651" width="623" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0055" x="1346" y="3651" width="642" height="536" frameX="2" frameY="-529" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0056" x="684" y="3651" width="662" height="556" frameX="2" frameY="-509" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0057" x="0" y="3651" width="684" height="579" frameX="2" frameY="-486" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0058" x="3142" y="2933" width="706" height="600" frameX="2" frameY="-465" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0059" x="3298" y="2310" width="727" height="622" frameX="2" frameY="-443" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0060" x="2392" y="2933" width="750" height="646" frameX="2" frameY="-419" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0061" x="1618" y="2933" width="774" height="670" frameX="2" frameY="-395" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0062" x="821" y="2933" width="797" height="694" frameX="2" frameY="-371" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0063" x="0" y="2933" width="821" height="718" frameX="2" frameY="-347" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0064" x="3298" y="1566" width="847" height="744" frameX="2" frameY="-321" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0065" x="3298" y="796" width="872" height="770" frameX="2" frameY="-295" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0066" x="3298" y="0" width="897" height="796" frameX="2" frameY="-269" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0067" x="1929" y="2054" width="924" height="824" frameX="2" frameY="-241" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0068" x="978" y="2054" width="951" height="851" frameX="2" frameY="-214" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0069" x="0" y="2054" width="978" height="879" frameX="2" frameY="-186" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0070" x="2262" y="937" width="1007" height="908" frameX="2" frameY="-157" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0071" x="2262" y="0" width="1036" height="937" frameX="2" frameY="-128" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0072" x="1095" y="1056" width="1065" height="967" frameX="2" frameY="-98" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0073" x="0" y="1056" width="1095" height="998" frameX="2" frameY="-67" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0074" x="1137" y="0" width="1125" height="1028" frameX="2" frameY="-37" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0075" x="0" y="0" width="1137" height="1056" frameX="2" frameY="-9" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0076" x="1696" y="4230" width="363" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0077" x="1696" y="4230" width="363" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0078" x="1696" y="4230" width="363" height="530" frameX="2" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0079" x="2059" y="4230" width="359" height="530" frameX="-3" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0080" x="2059" y="4230" width="359" height="530" frameX="-3" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0081" x="2418" y="4230" width="358" height="530" frameX="-7" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0082" x="2418" y="4230" width="358" height="530" frameX="-7" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0083" x="2776" y="4230" width="355" height="529" frameX="-34" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0084" x="2776" y="4230" width="355" height="529" frameX="-34" frameY="-535" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0085" x="355" y="5311" width="354" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0086" x="355" y="5311" width="354" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0087" x="6217" y="4802" width="351" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0088" x="6217" y="4802" width="351" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0089" x="5865" y="2670" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0090" x="5865" y="2670" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0091" x="5865" y="2670" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0092" x="1765" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0093" x="1765" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0094" x="4229" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0095" x="4229" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0096" x="2117" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0097" x="2117" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0098" x="5285" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0099" x="5865" y="3204" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0100" x="2469" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0101" x="6217" y="1068" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0102" x="5865" y="0" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0103" x="5865" y="1068" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0104" x="6217" y="534" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0105" x="5865" y="3738" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0106" x="5865" y="4272" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0107" x="3173" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0108" x="3525" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0109" x="4581" y="5311" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
+	<SubTexture name="V dies instance 0110" x="6217" y="2136" width="352" height="534" frameX="-33" frameY="-530" frameWidth="1153" frameHeight="1063"/>
 </TextureAtlas>
