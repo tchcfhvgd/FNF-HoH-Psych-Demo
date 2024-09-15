@@ -16,6 +16,7 @@ import openfl.events.Event;
 import openfl.system.System;
 import openfl.utils.AssetCache;
 import states.MainMenuState;
+import mobile.states.CopyState;
 #if linux
 import lime.graphics.Image;
 #end
@@ -36,7 +37,7 @@ class Main extends Sprite {
 	var game = {
 		width: 1280, // WINDOW width
 		height: 720, // WINDOW height
-		initialState: states.SplashScreen, // initial game state
+		initialState: CopyState, // initial game state
 		zoom: -1.0, // game state bounds
 		framerate: 60, // default framerate
 		skipSplash: true, // if the default flixel splash screen should be skipped
