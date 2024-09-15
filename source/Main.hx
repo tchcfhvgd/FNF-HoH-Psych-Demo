@@ -131,7 +131,7 @@ class Main extends Sprite {
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
 		if (fpsVar != null) {
 			fpsVar.visible = ClientPrefs.data.showFPS;
-		}.
+		}
 
 		#if linux
 		var icon = Image.fromFile("icon.png");
