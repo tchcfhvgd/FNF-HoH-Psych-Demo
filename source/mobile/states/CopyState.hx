@@ -19,6 +19,7 @@ import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.FlxSprite;
 import flixel.addons.transition.FlxTransitionableState;
+import states.SplashScreen;
 
 using StringTools;
 
@@ -48,7 +49,7 @@ class CopyState extends MusicBeatState
 		checkExistingFiles();
 		if (maxLoopTimes <= 0)
 		{
-			MusicBeatState.switchState(new Init());
+			MusicBeatState.switchState(new SplashScreen());
 			return;
 		}
 
@@ -98,7 +99,7 @@ class CopyState extends MusicBeatState
 				}
 				canUpdate = false;
 				FlxG.sound.play(Paths.sound('confirmMenu')).onComplete = () -> {
-					MusicBeatState.switchState(new Init());
+					MusicBeatState.switchState(new SplashScreen());
 				};
 			}
 
