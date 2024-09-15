@@ -125,12 +125,14 @@ class Main extends Sprite {
 		});
 
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
-		addChild(fpsVar);
+		FlxG.game.addChild(fpsVar);
 		Lib.current.stage.align = "tl";
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
 		if (fpsVar != null) {
 			fpsVar.visible = ClientPrefs.data.showFPS;
 		}
+
+		Data.setup();
 
 		#if linux
 		var icon = Image.fromFile("icon.png");
