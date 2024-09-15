@@ -143,6 +143,11 @@ class LanguageSelection extends MenuBeatState {
 		FlxG.camera.scroll.y = 40;
 
 		changeSelection(0);
+		
+		#if mobile
+		addVirtualPad(UP_DOWN, A_B);
+		#end
+		
 		super.create();
 	}
 
