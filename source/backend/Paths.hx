@@ -46,6 +46,11 @@ class Paths {
 
 		// run the garbage collector for good measure lmfao
 		System.gc();
+		#if cpp
+		cpp.NativeGc.run(true);
+		#elseif hl
+		hl.Gc.major();
+		#end
 	}
 
 	// define the locally tracked assets
@@ -358,14 +363,14 @@ class Paths {
 		}
 		#end
 		// I hate this so god damn much
-		var libPath:String = getPath('$path/$key.${Constants.SOUND_EXT}', SOUND, library);
+		var libPath:String = Sys.getCwd() + getPath('$path/$key.${Constants.SOUND_EXT}', SOUND, library);
 		var filePath = backend.native.Utils.removeLibraryPath(libPath);
 		// trace(libPath);
 		if (!currentTrackedSounds.exists(filePath)) {
 			var snd:Sound = null;
 			#if sys
 			if (FileSystem.exists(filePath))
-				snd = Sound.fromFile('./' + filePath);
+				snd = Sound.fromFile(filePath);
 			#end
 			#if !sys
 			if (snd == null)
@@ -385,7 +390,7 @@ class Paths {
 
 	#if MODS_ALLOWED
 	public inline static function mods(key:String = '') {
-		return 'mods/' + key;
+		return Sys.getCwd() + 'mods/' + key;
 	}
 
 	public inline static function modsFont(key:String) {
@@ -429,7 +434,7 @@ class Paths {
 			if (FileSystem.exists(fileToCheck))
 				return fileToCheck;
 		}
-		return 'mods/' + key;
+		return Sys.getCwd() + 'mods/' + key;
 	}
 	#end
 }
