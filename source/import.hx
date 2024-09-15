@@ -51,6 +51,7 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import objects.Alphabet;
 import objects.BGSprite;
+import flixel.util.FlxDestroyUtil;
 import states.LoadingState;
 import states.PlayState;
 import tjson.TJSON as Json;
