@@ -33,16 +33,6 @@ class SaveVariables {
 	public var camZooms:Bool = true;
 	public var hideHud:Bool = false;
 	public var noteOffset:Int = 0;
-	public var arrowRGB:Array<Array<FlxColor>> = [
-		[0xFFC24B99, 0xFFFFFFFF, 0xFF3C1F56],
-		[0xFF00FFFF, 0xFFFFFFFF, 0xFF1542B7],
-		[0xFF12FA05, 0xFFFFFFFF, 0xFF0A4447],
-		[0xFFF9393F, 0xFFFFFFFF, 0xFF651038]];
-	public var arrowRGBPixel:Array<Array<FlxColor>> = [
-		[0xFFE276FF, 0xFFFFF9FF, 0xFF60008D],
-		[0xFF3DCAFF, 0xFFF4FFFF, 0xFF003060],
-		[0xFF71E300, 0xFFF6FFE6, 0xFF003100],
-		[0xFFFF884E, 0xFFFFFAF5, 0xFF6C0000]];
 	public var geo:Int = 0;
 	public var language:String = TransManager.DEFAULT_LANGUAGE;
 	public var hasShownLanguageSelection:Bool = false;
@@ -86,7 +76,13 @@ class SaveVariables {
 	public var safeFrames:Float = 10;
 	public var guitarHeroSustains:Bool = true;
 	public var discordRPC:Bool = true;
+
+public function new() {
+		// Why does haxe needs this again?
 }
+
+}
+
 
 class ClientPrefs {
 	public static var data:SaveVariables = null;
@@ -97,7 +93,7 @@ class ClientPrefs {
 		//Key Bind, Name for ControlsSubState
 		'note_up'		=> [W, UP],
 		'note_left'		=> [A, LEFT],
-		'note_down'		=> [S, DOWN],
+		'note_down'             => [S, DOWN],
 		'note_right'	        => [D, RIGHT],
 		
 		'ui_up'			=> [W, UP],
