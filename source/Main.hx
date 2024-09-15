@@ -27,6 +27,11 @@ import openfl.events.UncaughtErrorEvent;
 import sys.io.Process;
 #end
 
+#if android
+import android.content.Context;
+import android.os.Build;
+#end
+
 class Main extends Sprite {
 	var game = {
 		width: 1280, // WINDOW width
@@ -57,11 +62,22 @@ class Main extends Sprite {
 
 	public static function main():Void {
 		Lib.current.addChild(new Main());
+		#if cpp
+		cpp.NativeGc.enable(true);
+		#elseif hl
+		hl.Gc.enable(true);
+		#end
 	}
 
 	public function new() {
 		super();
 
+		#if android
+		Sys.setCwd(Path.addTrailingSlash(Context.getExternalFilesDir()));
+		#elseif ios
+		Sys.setCwd(System.documentsDirectory);
+		#end
+		
 		if (stage != null) {
 			init();
 		} else {
@@ -78,17 +94,6 @@ class Main extends Sprite {
 	}
 
 	private function setupGame():Void {
-		var stageWidth:Int = Lib.current.stage.stageWidth;
-		var stageHeight:Int = Lib.current.stage.stageHeight;
-
-		if (game.zoom == -1.0) {
-			var ratioX:Float = stageWidth / game.width;
-			var ratioY:Float = stageHeight / game.height;
-			game.zoom = Math.min(ratioX, ratioY);
-			game.width = Math.ceil(stageWidth / game.zoom);
-			game.height = Math.ceil(stageHeight / game.zoom);
-		}
-
 		#if LUA_ALLOWED Lua.set_callbacks_function(cpp.Callable.fromStaticFunction(psychlua.CallbackHandler.call)); #end
 		Controls.instance = new Controls();
 		ClientPrefs.loadDefaultKeys();
@@ -99,6 +104,10 @@ class Main extends Sprite {
 		FlxG.keys.preventDefaultKeys = [TAB];
 		FlxG.mouse.visible = false;
 
+		#if android
+		FlxG.android.preventDefaultKeys = [BACK];
+		#end
+				     
 		FlxG.signals.gameResized.add(onResizeGame);
 		FlxG.signals.preStateSwitch.add(function() {
 			Paths.clearStoredMemory(true);
@@ -110,14 +119,11 @@ class Main extends Sprite {
 			for (key => sound in cache.sound)
 				cache.removeSound(key);
 
-			gc();
 		});
 		FlxG.signals.postStateSwitch.add(function() {
 			Paths.clearUnusedMemory();
-			gc();
 		});
 
-		#if !mobile
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
@@ -125,7 +131,6 @@ class Main extends Sprite {
 		if (fpsVar != null) {
 			fpsVar.visible = ClientPrefs.data.showFPS;
 		}
-		#end
 
 		#if linux
 		var icon = Image.fromFile("icon.png");
@@ -197,7 +202,7 @@ class Main extends Sprite {
 		dateNow = dateNow.replace(" ", "_");
 		dateNow = dateNow.replace(":", "'");
 
-		path = "./crash/" + "PsychEngine_" + dateNow + ".txt";
+		path = "crash/" + "PsychEngine_" + dateNow + ".txt";
 
 		for (stackItem in callStack) {
 			switch (stackItem) {
@@ -208,8 +213,8 @@ class Main extends Sprite {
 
 		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
 
-		if (!FileSystem.exists("./crash/"))
-			FileSystem.createDirectory("./crash/");
+		if (!FileSystem.exists("crash/"))
+			FileSystem.createDirectory("crash/");
 
 		File.saveContent(path, errMsg + "\n");
 
@@ -217,7 +222,9 @@ class Main extends Sprite {
 		Sys.println("Crash dump saved in " + Path.normalize(path));
 
 		Application.current.window.alert(errMsg, "Error!");
+		#if desktop
 		DiscordClient.shutdown();
+		#end
 		Sys.exit(1);
 	}
 	#end
@@ -244,13 +251,5 @@ class Main extends Sprite {
 				sprite.__cacheBitmapData3 = null;
 			}
 		}
-	}
-
-	public static function gc() {
-		#if cpp
-		Gc.run(true);
-		#else
-		openfl.system.System.gc();
-		#end
 	}
 }
