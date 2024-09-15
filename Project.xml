@@ -21,7 +21,7 @@
 	<!-- ______________________ PSYCH ENGINE CUSTOMIZATION ______________________ -->
 
 	<define name="RELEASE_DEBUG" if="debug" />
-	<define name="MODS_ALLOWED" if="desktop" />
+	<define name="MODS_ALLOWED" if="desktop || mobile" />
 	<!--<define name="HSCRIPT_ALLOWED" if="desktop" />-->
 	<!--<define name="LUA_ALLOWED" if="desktop" />-->
 	<define name="VIDEOS_ALLOWED" if="cpp" unless="32bits"/>
@@ -38,8 +38,8 @@
 	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" vsync="false"/>
 
 	<!--Mobile-specific-->
-	<window if="mobile" orientation="landscape" fullscreen="true" width="0" height="0" resizable="false"/>
-
+	<window if="mobile" orientation="landscape" fullscreen="true" resizable="false" allow-shaders="true" require-shaders="true" allow-high-dpi="true" />
+	
 	<!--Switch-specific-->
 	<window if="switch" orientation="landscape" fullscreen="true" width="0" height="0" resizable="true" />
 
@@ -54,7 +54,7 @@
 	<!-- __________________________ Game Assets & Etc. __________________________ -->
 
 	<!-- Turn on Crash Handler -->
-	<define name="CRASH_HANDLER" if="desktop release" />
+	<define name="CRASH_HANDLER" if="desktop release || mobile" />
 
 	<!-- Preload Assets -->
 	<define name="PRELOAD_ALL" unless="web" />
@@ -65,7 +65,7 @@
 	<assets path="assets/preload" rename="assets" exclude="*.mp3"  unless="web"/>
 
 	<!-- DONT ENABLE THIS -->
-	<define name="CHECK_FOR_UPDATES" if="desktop officialBuild"/>
+	<define name="CHECK_FOR_UPDATES" if="desktop officialBuild || mobile"/>
 
 	<!-- Week Assets -->
 	<library name="videos"        preload="true" />
@@ -118,6 +118,7 @@
 	<haxelib name="tjson" />
 	<haxedef name="openflPos" />
 	<haxedef name="hscriptPos" />
+	<haxelib name="extension-androidtools" if="android"/>
 
 	<haxedef name="hscript" if="debug" />
 
@@ -165,6 +166,11 @@
 
 	<!--Macro fixes-->
 
+	<section if="android">
+			<!-- Do whatever you want I'm tired uninstall and install everytime -->
+			<certificate path="key.keystore" password="psychengine" alias="psychport" alias-password="psychengine" unless="debug" />
+	</section>
+		
 	<!-- _________________________________ Custom _______________________________ -->
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
