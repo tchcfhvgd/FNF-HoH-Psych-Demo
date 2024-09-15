@@ -5,7 +5,7 @@ import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
 
 // Add a variable here and it will get automatically saved
-@:structInit class SaveVariables {
+class SaveVariables {
         // Mobile Controls Releated
 	public var extraButtons:String = "SINGLE"; // mobile extra button option
 	public var hitbox2:Bool = true; // hitbox extra button position option
