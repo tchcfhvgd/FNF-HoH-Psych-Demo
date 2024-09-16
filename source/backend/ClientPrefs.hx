@@ -152,22 +152,14 @@ class ClientPrefs {
 		}
 	}
 
-	public static function clearInvalidKeys(key:String) {
+        public static function clearInvalidKeys(key:String)
+	{
 		var keyBind:Array<FlxKey> = keyBinds.get(key);
 		var gamepadBind:Array<FlxGamepadInputID> = gamepadBinds.get(key);
 		var mobileBind:Array<FlxMobileInputID> = mobileBinds.get(key);
-		if (keyBind != null) {
-			while (keyBind.contains(NONE))
-				keyBind.remove(NONE);
-		}
-		if (gamepadBind != null) {
-			while (gamepadBind.contains(NONE))
-				gamepadBind.remove(NONE);
-		}
-		if (mobileBind != null) {
-			while (mobileBind.contains(NONE))
-				mobileBind.remove(NONE);
-		}
+		while(keyBind != null && keyBind.contains(NONE)) keyBind.remove(NONE);
+		while(gamepadBind != null && gamepadBind.contains(NONE)) gamepadBind.remove(NONE);
+		while(mobileBind != null && mobileBind.contains(NONE)) mobileBind.remove(NONE);
 	}
 
 	public static function loadDefaultKeys() {
