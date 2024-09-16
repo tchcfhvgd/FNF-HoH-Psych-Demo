@@ -126,7 +126,7 @@ class Main extends Sprite {
 		});
 
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
-		addChild(fpsVar);
+		FlxG.game.addChild(fpsVar);
 		Lib.current.stage.align = "tl";
 		Lib.current.stage.scaleMode = StageScaleMode.NO_SCALE;
 		if (fpsVar != null) {
@@ -149,6 +149,8 @@ class Main extends Sprite {
 		#if desktop
 		DiscordClient.start();
 		#end
+
+		Data.setup();
 
 		/*// shader coords fix
 			FlxG.signals.gameResized.add(function(w, h) {
