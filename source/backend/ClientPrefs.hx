@@ -15,6 +15,11 @@ class SaveVariables {
 	public var antialiasing:Bool = true;
 	public var noteSkin:String = 'Hymns';
 	public var splashSkin:String = 'Psych';
+	public var padalpha:Float = 0.6;
+	public var hitboxalpha:Float = 0.5;
+	public var mobileCEx:Bool = false;
+	public var hitboxType:String = "Gradient";
+	public var hitboxPos:Bool = true;
 	public var splashAlpha:Float = 0.6;
 	public var lowQuality:Bool = false;
 	public var shaders:Bool = true;
