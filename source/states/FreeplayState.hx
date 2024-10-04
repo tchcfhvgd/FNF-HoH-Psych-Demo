@@ -192,6 +192,10 @@ class FreeplayState extends MusicBeatState {
 		textBG.alpha = 0.6;
 		// add(textBG);
 
+		#if mobile
+                addVirtualPad(LEFT_RIGHT, A_B_C);
+                #end
+		
 		changeSelection(0);
 
 	}
@@ -200,6 +204,10 @@ class FreeplayState extends MusicBeatState {
 		changeSelection(0, false);
 		persistentUpdate = true;
 		super.closeSubState();
+		#if mobile
+		removeVirtualPad();
+		addVirtualPad(LEFT_RIGHT, A_B_C);
+                #end
 	}
 
 	public function addSong(songName:String, weekNum:Int, songCharacter:String, color:Int) {
@@ -358,6 +366,9 @@ class FreeplayState extends MusicBeatState {
 		} else if (controls.RESET) {
 			persistentUpdate = false;
 			openSubState(new ResetScoreSubState(songs[curSelected].songName, curDifficulty, songs[curSelected].songCharacter));
+			#if mobile
+			removeVirtualPad();
+			#end
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
 
