@@ -161,6 +161,10 @@ class CharmSubState extends MusicBeatSubstate {
 
 		setTextIcon();
 		canMove = true;
+
+		#if mobile
+                addVirtualPad(LEFT_FULL, A_B);
+                #end
 	}
 
 	function createNotches(amt:Int, extra:Int) {
