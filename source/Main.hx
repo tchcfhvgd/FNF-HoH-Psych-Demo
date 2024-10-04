@@ -150,8 +150,6 @@ class Main extends Sprite {
 		DiscordClient.start();
 		#end
 
-		Data.setup();
-
 		/*// shader coords fix
 			FlxG.signals.gameResized.add(function(w, h) {
 				if (FlxG.cameras != null) {
