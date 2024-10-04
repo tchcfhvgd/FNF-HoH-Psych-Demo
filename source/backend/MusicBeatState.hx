@@ -4,6 +4,13 @@ import flixel.FlxSubState;
 import flixel.addons.ui.FlxUIState;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.FlxState;
+#if mobile
+import mobile.MobileControls;
+import mobile.flixel.FlxVirtualPad;
+import flixel.FlxCamera;
+import flixel.input.actions.FlxActionInput;
+import flixel.util.FlxDestroyUtil;
+#end
 
 class MusicBeatState extends FlxUIState {
 	private var curSection:Int = 0;
@@ -14,9 +21,116 @@ class MusicBeatState extends FlxUIState {
 
 	private var curDecStep:Float = 0;
 	private var curDecBeat:Float = 0;
+	public static var checkHitbox:Bool = false;
+	public static var checkDUO:Bool = false;
 
 	public var controls(get, never):Controls;
 
+	        #if mobile
+		public static var mobileControls:MobileControls;
+		public static var virtualPad:FlxVirtualPad;
+		//var trackedInputsMobileControls:Array<FlxActionInput> = [];
+		//var trackedInputsVirtualPad:Array<FlxActionInput> = [];
+
+		public function addVirtualPad(DPad:FlxDPadMode, Action:FlxActionMode)
+		{
+		    if (virtualPad != null)
+			removeVirtualPad();
+
+			virtualPad = new FlxVirtualPad(DPad, Action);
+		        add(virtualPad);
+                        Controls.checkState = true;
+		        Controls.CheckPress = true;
+			//controls.setVirtualPadUI(virtualPad, DPad, Action);
+			//trackedInputsVirtualPad = controls.trackedInputsUI;
+			//controls.trackedInputsUI = [];
+		}
+
+		public function removeVirtualPad()
+		{
+			if (virtualPad != null)
+			remove(virtualPad);
+		}
+
+		#if mobile
+	        public function noCheckPress() 
+	        {
+		        Controls.CheckPress = false;
+	        }
+	        #end
+	
+	        public function addMobileControls(DefaultDrawTarget:Bool = true)
+		{
+			if (mobileControls != null)
+			removeMobileControls();
+
+			mobileControls = new MobileControls();
+			Controls.CheckPress = true;
+
+			switch (MobileControls.mode)
+			{
+				case 'Pad-Right' | 'Pad-Left' | 'Pad-Custom':
+				//controls.setVirtualPadNOTES(mobileControls.virtualPad, RIGHT_FULL, NONE);
+				checkHitbox = false;
+				checkDUO = false;
+				Controls.CheckKeyboard = false;
+				case 'Pad-Duo':
+				//controls.setVirtualPadNOTES(mobileControls.virtualPad, BOTH_FULL, NONE);
+				checkHitbox = false;
+				checkDUO = true;
+				Controls.CheckKeyboard = false;
+				case 'Hitbox':
+				//controls.setHitBox(mobileControls.hitbox);
+				checkHitbox = true;
+				checkDUO = false;
+				Controls.CheckKeyboard = false;
+				case 'Keyboard':
+				checkHitbox = false;
+				checkDUO = false;
+			        Controls.CheckKeyboard = true;
+			}
+
+			var camControls:FlxCamera = new FlxCamera();
+			FlxG.cameras.add(camControls, DefaultDrawTarget);
+			camControls.bgColor.alpha = 0;
+
+			mobileControls.cameras = [camControls];
+			mobileControls.visible = false;
+			add(mobileControls);
+			Controls.CheckControl = true;
+		}
+
+		public function removeMobileControls()
+		{
+			if (mobileControls != null)
+			remove(mobileControls);
+		}
+
+		public function addVirtualPadCamera(DefaultDrawTarget:Bool = true)
+		{
+			if (virtualPad != null)
+			{
+				var camControls:FlxCamera = new FlxCamera();
+				FlxG.cameras.add(camControls, DefaultDrawTarget);
+				camControls.bgColor.alpha = 0;
+				virtualPad.cameras = [camControls];
+			}
+		}
+		#end
+
+		override function destroy()
+		{
+			super.destroy();
+
+			#if mobile
+			if (virtualPad != null)
+			virtualPad = FlxDestroyUtil.destroy(virtualPad);
+
+			if (mobileControls != null)
+			mobileControls = FlxDestroyUtil.destroy(mobileControls);
+			#end
+		}
+	
 	private function get_controls() {
 		return Controls.instance;
 	}
