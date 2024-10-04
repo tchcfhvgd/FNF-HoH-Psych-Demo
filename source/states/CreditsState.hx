@@ -422,7 +422,7 @@ class CreditsState extends MenuBeatState {
 		ClientPrefs.saveSettings();
 		
 		#if mobile
-                addVirtualPad(LEFT_FULL, A);
+                addVirtualPad(LEFT_FULL, A_B);
                 #end
 		
 		super.create();
