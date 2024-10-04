@@ -119,7 +119,7 @@ class OverworldManager extends MusicBeatState {
 			case 4: playerLocation4 = goob;
 		}
 	}
-
+	
 	override function create() {
 		#if desktop
 		DiscordClient.changePresence("In the Overworld", null);
@@ -193,6 +193,15 @@ class OverworldManager extends MusicBeatState {
 		// switchScenery(new Shop());
 	}
 
+	override function closeSubState() {
+		super.closeSubState();
+		#if mobile
+		removeVirtualPad();
+                addVirtualPad(LEFT_FULL, A_B);
+                addVirtualPadCamera(false);
+                #end
+	}
+	
 	public function switchScenery(scene2:BaseScene) {
 		if (switching)
 			return;
@@ -313,5 +322,8 @@ class OverworldManager extends MusicBeatState {
 			thebop.pause();
 		}
 		openSubState(new PauseSubState(true));
+		#if mobile
+		removeVirtualPad();
+		#end
 	}
 }
