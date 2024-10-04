@@ -185,6 +185,11 @@ class OverworldManager extends MusicBeatState {
 
 		// dirtmouthSlyLoop
 
+		#if mobile
+                addVirtualPad(LEFT_FULL, A_B);
+                addVirtualPadCamera(false);
+                #end
+		
 		// switchScenery(new Shop());
 	}
 
