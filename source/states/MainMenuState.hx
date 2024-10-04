@@ -130,6 +130,10 @@ class MainMenuState extends MenuBeatState {
 
 		changeItem();
 
+		#if mobile
+                addVirtualPad(UP_DOWN, A);
+                #end
+		
 		super.create();
 	}
 
