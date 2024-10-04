@@ -80,7 +80,7 @@ class CopyState extends MusicBeatState
 		}
 		else
 		{
-			MusicBeatState.switchState(new Init());
+			MusicBeatState.switchState(new states.SplashScreen());
 		}
 
 		super.create();
@@ -101,7 +101,7 @@ class CopyState extends MusicBeatState
 				}
 				canUpdate = false;
 				FlxG.sound.play(Paths.sound('confirmMenu')).onComplete = () -> {
-					MusicBeatState.switchState(new Init());
+					MusicBeatState.switchState(new states.SplashScreen());
 				};
 			}
 			if (maxLoopTimes == 0)
