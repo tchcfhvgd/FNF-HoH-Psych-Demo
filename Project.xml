@@ -91,6 +91,7 @@
 	<assets path="assets/hymns"         library="hymns"    exclude="*.ogg" if="web"/>
 	<assets path="assets/hymns"         library="hymns"    exclude="*.mp3" unless="web"/>
 
+	<assets path="mobile" rename="assets/mobile" if="mobile"/>
 	<assets path='assets/translations'  library="translations" embed='false'/>
 
 	<section if="MODS_ALLOWED">
